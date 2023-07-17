@@ -1,0 +1,13 @@
+prefix=C:/Users/paago/Documents/Student_Scores_Analysis/students/Library
+exec_prefix=C:/Users/paago/Documents/Student_Scores_Analysis/students/Library
+libdir=C:/Users/paago/Documents/Student_Scores_Analysis/students/Library/lib
+sharedlibdir=C:/Users/paago/Documents/Student_Scores_Analysis/students/Library/lib
+includedir=C:/Users/paago/Documents/Student_Scores_Analysis/students/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
