@@ -13,6 +13,7 @@ app = application
 app.debug = False
 
 
+
 @app.route('/')
 def index():
     print("In index route")   # Debugging print statement
