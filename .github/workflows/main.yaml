@@ -88,7 +88,7 @@ jobs:
          
       - name: Stop and remove  container if running
         run: |
-         docker ps -q --filter "name=studentperformanceindicator" | grep -q . && docker stop mltest && docker rm -fv studentperformanceindicator
+         docker ps -q --filter "name=studentperformanceindicator" | grep -q . && docker stop studentperformanceindicator && docker rm -fv studentperformanceindicator
        
       - name: Run Docker Image to serve users
         run: |
